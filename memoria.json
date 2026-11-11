@@ -1,0 +1,66 @@
+{
+    "casos": [
+        {
+            "fecha": "2026-10-28T19:50:54",
+            "categoria": "Computadoras",
+            "sintomas": {
+                "equipo_lento": true,
+                "muchos_programas": true,
+                "poco_espacio": true,
+                "sobrecalentamiento": true
+            },
+            "hipotesis": "Memoria o CPU saturada",
+            "causa_confirmada": "Memoria o CPU saturada"
+        },
+        {
+            "fecha": "2026-10-28 20:14:35",
+            "categoria": "Bases de datos",
+            "respuestas": {
+                "conexion_rechazada": true,
+                "credenciales_error": true,
+                "servidor_activo": false,
+                "error_timeout": false
+            },
+            "hipotesis": "Servicio de base de datos detenido",
+            "causa_confirmada": null
+        },
+        {
+            "fecha": "2026-10-28 20:33:13",
+            "categoria": "Redes e Internet",
+            "respuestas": {
+                "hay_wifi": false,
+                "hay_ip": false,
+                "no_abren_dominios": true,
+                "servidor_no_responde": true
+            },
+            "hipotesis": "Falla de conectividad",
+            "causa_confirmada": "Falla de conectividad"
+        }
+    ],
+    "aprendizaje": {
+        "2|Memoria o CPU saturada": {
+            "aciertos": 1,
+            "fallos": 0
+        },
+        "2|Posible sobrecalentamiento": {
+            "aciertos": 0,
+            "fallos": 1
+        },
+        "2|Poco espacio en disco": {
+            "aciertos": 0,
+            "fallos": 1
+        },
+        "Redes e Internet|Falla de conectividad": {
+            "aciertos": 1,
+            "fallos": 0
+        },
+        "Redes e Internet|Problema con DNS": {
+            "aciertos": 0,
+            "fallos": 1
+        },
+        "Redes e Internet|Servidor inaccesible": {
+            "aciertos": 0,
+            "fallos": 1
+        }
+    }
+}
