@@ -35,6 +35,258 @@
             },
             "hipotesis": "Falla de conectividad",
             "causa_confirmada": "Falla de conectividad"
+        },
+        {
+            "fecha": "2026-11-11 17:13:59",
+            "categoria": "Computadoras",
+            "respuestas": {
+                "equipo_lento": true,
+                "muchos_programas": true,
+                "poco_espacio": true,
+                "sobrecalentamiento": true
+            },
+            "hipotesis": "Memoria o CPU saturada",
+            "causa_confirmada": "Memoria o CPU saturada"
+        },
+        {
+            "fecha": "2026-11-11 17:24:04",
+            "categoria": "Redes e Internet",
+            "respuestas": {
+                "hay_wifi": true,
+                "hay_ip": true,
+                "no_abren_dominios": false,
+                "servidor_no_responde": true
+            },
+            "hipotesis": "Servidor inaccesible",
+            "causa_confirmada": "Problema con DNS"
+        },
+        {
+            "fecha": "2026-11-11 17:33:05",
+            "categoria": "Redes e Internet",
+            "respuestas": {
+                "hay_wifi": true,
+                "hay_ip": true,
+                "no_abren_dominios": true,
+                "servidor_no_responde": true
+            },
+            "hipotesis": "Problema con DNS",
+            "causa_confirmada": "Problema con DNS"
+        },
+        {
+            "fecha": "2026-11-11 17:33:24",
+            "categoria": "Computadoras",
+            "respuestas": {
+                "equipo_lento": true,
+                "muchos_programas": false,
+                "poco_espacio": true,
+                "sobrecalentamiento": false
+            },
+            "hipotesis": "Memoria o CPU saturada",
+            "causa_confirmada": "Posible sobrecalentamiento"
+        },
+        {
+            "fecha": "2026-11-11 17:33:44",
+            "categoria": "Aplicaciones",
+            "respuestas": {
+                "no_inicia": true,
+                "mensaje_error": false,
+                "cambio_reciente": true,
+                "solo_una_app": false
+            },
+            "hipotesis": "Falla general del sistema",
+            "causa_confirmada": "Falla general del sistema"
+        },
+        {
+            "fecha": "2026-11-11 17:34:20",
+            "categoria": "Bases de datos",
+            "respuestas": {
+                "conexion_rechazada": true,
+                "credenciales_error": false,
+                "servidor_activo": true,
+                "error_timeout": true
+            },
+            "hipotesis": "Servidor o puerto inaccesible",
+            "causa_confirmada": "Servidor o puerto inaccesible"
+        },
+        {
+            "fecha": "2026-11-11 17:37:35",
+            "categoria": "Redes e Internet",
+            "respuestas": {
+                "hay_wifi": true,
+                "hay_ip": true,
+                "no_abren_dominios": true,
+                "servidor_no_responde": false
+            },
+            "hipotesis": "Problema con DNS",
+            "causa_confirmada": "Problema con DNS"
+        },
+        {
+            "fecha": "2026-11-11 17:38:29",
+            "categoria": "Computadoras",
+            "respuestas": {
+                "equipo_lento": true,
+                "muchos_programas": true,
+                "poco_espacio": true,
+                "sobrecalentamiento": true
+            },
+            "hipotesis": "Memoria o CPU saturada",
+            "causa_confirmada": "Memoria o CPU saturada"
+        },
+        {
+            "fecha": "2026-11-11 17:39:03",
+            "categoria": "Aplicaciones",
+            "respuestas": {
+                "no_inicia": true,
+                "mensaje_error": true,
+                "cambio_reciente": true,
+                "solo_una_app": true
+            },
+            "hipotesis": "Error de configuración",
+            "causa_confirmada": null
+        },
+        {
+            "fecha": "2026-11-11 17:39:20",
+            "categoria": "Aplicaciones",
+            "respuestas": {
+                "no_inicia": true,
+                "mensaje_error": false,
+                "cambio_reciente": true,
+                "solo_una_app": true
+            },
+            "hipotesis": "Error de configuración",
+            "causa_confirmada": null
+        },
+        {
+            "fecha": "2026-11-11 17:41:05",
+            "categoria": "Aplicaciones",
+            "respuestas": {
+                "no_inicia": false,
+                "mensaje_error": false,
+                "cambio_reciente": true,
+                "solo_una_app": true
+            },
+            "hipotesis": "Error de configuración",
+            "causa_confirmada": "Error de configuración"
+        },
+        {
+            "fecha": "2026-11-11 17:41:31",
+            "categoria": "Aplicaciones",
+            "respuestas": {
+                "no_inicia": true,
+                "mensaje_error": false,
+                "cambio_reciente": true,
+                "solo_una_app": false
+            },
+            "hipotesis": "Falla general del sistema",
+            "causa_confirmada": null
+        },
+        {
+            "fecha": "2026-11-11 17:42:00",
+            "categoria": "Aplicaciones",
+            "respuestas": {
+                "no_inicia": true,
+                "mensaje_error": false,
+                "cambio_reciente": true,
+                "solo_una_app": true
+            },
+            "hipotesis": "Error de configuración",
+            "causa_confirmada": null
+        },
+        {
+            "fecha": "2026-11-11 17:43:06",
+            "categoria": "Aplicaciones",
+            "respuestas": {
+                "no_inicia": true,
+                "mensaje_error": false,
+                "cambio_reciente": true,
+                "solo_una_app": true
+            },
+            "hipotesis": "Error de configuración",
+            "causa_confirmada": "Dependencia faltante o incompatible"
+        },
+        {
+            "fecha": "2026-11-11 17:43:17",
+            "categoria": "Aplicaciones",
+            "respuestas": {
+                "no_inicia": true,
+                "mensaje_error": false,
+                "cambio_reciente": true,
+                "solo_una_app": true
+            },
+            "hipotesis": "Error de configuración",
+            "causa_confirmada": "Dependencia faltante o incompatible"
+        },
+        {
+            "fecha": "2026-11-11 17:44:06",
+            "categoria": "Aplicaciones",
+            "respuestas": {
+                "no_inicia": true,
+                "mensaje_error": false,
+                "cambio_reciente": true,
+                "solo_una_app": true
+            },
+            "hipotesis": "Dependencia faltante o incompatible",
+            "causa_confirmada": "Dependencia faltante o incompatible"
+        },
+        {
+            "fecha": "2026-11-11 17:45:09",
+            "categoria": "Bases de datos",
+            "respuestas": {
+                "conexion_rechazada": true,
+                "credenciales_error": false,
+                "servidor_activo": true,
+                "error_timeout": true
+            },
+            "hipotesis": "Servidor o puerto inaccesible",
+            "causa_confirmada": "Servidor o puerto inaccesible"
+        },
+        {
+            "fecha": "2026-11-11 18:50:07",
+            "categoria": "Bases de datos",
+            "respuestas": {
+                "conexion_rechazada": true,
+                "credenciales_error": false,
+                "servidor_activo": false,
+                "error_timeout": false
+            },
+            "hipotesis": "Servidor o puerto inaccesible",
+            "causa_confirmada": "Servidor o puerto inaccesible"
+        },
+        {
+            "fecha": "2026-11-11 18:58:51",
+            "categoria": "Aplicaciones",
+            "respuestas": {
+                "no_inicia": true,
+                "mensaje_error": true,
+                "cambio_reciente": true,
+                "solo_una_app": true
+            },
+            "hipotesis": "Dependencia faltante o incompatible",
+            "causa_confirmada": "Dependencia faltante o incompatible"
+        },
+        {
+            "fecha": "2026-11-11 19:07:14",
+            "categoria": "Redes e Internet",
+            "respuestas": {
+                "hay_wifi": true,
+                "hay_ip": false,
+                "no_abren_dominios": true,
+                "servidor_no_responde": false
+            },
+            "hipotesis": "Problema con DNS",
+            "causa_confirmada": "Problema con DNS"
+        },
+        {
+            "fecha": "2026-11-11 19:40:32",
+            "categoria": "Computadoras",
+            "respuestas": {
+                "equipo_lento": true,
+                "muchos_programas": true,
+                "poco_espacio": true,
+                "sobrecalentamiento": true
+            },
+            "hipotesis": "Memoria o CPU saturada",
+            "causa_confirmada": "Memoria o CPU saturada"
         }
     ],
     "aprendizaje": {
@@ -52,15 +304,51 @@
         },
         "Redes e Internet|Falla de conectividad": {
             "aciertos": 1,
-            "fallos": 0
+            "fallos": 4
         },
         "Redes e Internet|Problema con DNS": {
-            "aciertos": 0,
+            "aciertos": 4,
             "fallos": 1
         },
         "Redes e Internet|Servidor inaccesible": {
             "aciertos": 0,
+            "fallos": 5
+        },
+        "Computadoras|Memoria o CPU saturada": {
+            "aciertos": 3,
             "fallos": 1
+        },
+        "Computadoras|Poco espacio en disco": {
+            "aciertos": 0,
+            "fallos": 4
+        },
+        "Computadoras|Posible sobrecalentamiento": {
+            "aciertos": 1,
+            "fallos": 3
+        },
+        "Aplicaciones|Falla general del sistema": {
+            "aciertos": 1,
+            "fallos": 5
+        },
+        "Aplicaciones|Error de configuración": {
+            "aciertos": 1,
+            "fallos": 5
+        },
+        "Aplicaciones|Dependencia faltante o incompatible": {
+            "aciertos": 4,
+            "fallos": 2
+        },
+        "Bases de datos|Servidor o puerto inaccesible": {
+            "aciertos": 3,
+            "fallos": 0
+        },
+        "Bases de datos|Servicio de base de datos detenido": {
+            "aciertos": 0,
+            "fallos": 3
+        },
+        "Bases de datos|Credenciales incorrectas": {
+            "aciertos": 0,
+            "fallos": 3
         }
     }
 }
